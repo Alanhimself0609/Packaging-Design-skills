@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "project": "sample-project",
+  "face": "front",
+  "version": "v001",
+  "reference": "approved-flat.png",
+  "canvas": {
+    "width_px": 1200,
+    "height_px": 1600,
+    "resolution_ppi": 300,
+    "color_mode": "RGB",
+    "concept_only": true,
+    "physical_width_mm": null,
+    "physical_height_mm": null,
+    "target_ppi": 300
+  },
+  "groups": [
+    {
+      "name": "01_BG",
+      "elements": [
+        {
+          "id": "bg-001",
+          "name": "background",
+          "file": "layers/01_BG/bg-001.png",
+          "isolation_mode": "opaque-layer",
+          "mask_file": null,
+          "deferred_split": false,
+          "contains": ["background"],
+          "source_method": "source-extracted",
+          "confidence": "high",
+          "occlusion": "none",
+          "important": true,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "02_MAIN",
+      "elements": []
+    },
+    {
+      "name": "03_AUX",
+      "elements": []
+    },
+    {
+      "name": "04_LABEL",
+      "elements": []
+    },
+    {
+      "name": "05_TYPE",
+      "elements": []
+    }
+  ],
+  "output": {
+    "directory": "output"
+  },
+  "quality_gate": {
+    "minimum_similarity": 0.9
+  }
+}

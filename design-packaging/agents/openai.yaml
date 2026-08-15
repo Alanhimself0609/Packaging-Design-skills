@@ -1,0 +1,4 @@
+interface:
+  display_name: "包装设计与分层 PSD"
+  short_description: "高保真拆分包装效果图并建立五层概念PSD"
+  default_prompt: "Use $design-packaging to plan a cost-conscious package, build five coarse layer groups, composite the review image from those real layers, and refine only the approved elements needed for production."

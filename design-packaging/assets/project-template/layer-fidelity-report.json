@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "project": "sample-project",
+  "face": "front",
+  "concept_only": true,
+  "reference": "approved-flat.png",
+  "summary": {
+    "element_count": 0,
+    "source_extracted": 0,
+    "occlusion_completed": 0,
+    "upscaled_rebuilt": 0,
+    "retyped": 0,
+    "manual_redraw": 0,
+    "low_confidence": 0,
+    "requires_user_confirmation": false
+  },
+  "elements": [],
+  "limitations": [
+    "完全被遮挡的原始像素无法精确恢复，只能合理补全。",
+    "没有真实尺寸和印厂参数时，本文件不是生产尺寸。"
+  ]
+}
